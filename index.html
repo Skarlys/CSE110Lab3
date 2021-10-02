@@ -11,6 +11,7 @@
 <footer>Author: Danica Xiong</footer>
 <section>
 <details>
+<main>
 <summary> Attendence List: </summary>
 
 <ul>
@@ -25,9 +26,8 @@
 </ul>
 </details>
 </section>
-
+</main>
 <section>
-<main>
 <h2> Agenda: </h2>
 <ol>
 <li>Unfinished business from last meeting</li>
@@ -37,7 +37,6 @@
 <li>Fun diagrams/memes</li>
 <li>Video and Audio recordings</li>
 </ol>
-</main>
 
 <div class="unfinished business">
 <h2> Unfinished Business: </h2>
@@ -89,10 +88,45 @@
 
 <form>
 <label>Name:
-<input name="name" autocomplete="name">
+<input type="text" id="name" name="name" autocomplete="name">
 </label>
 <button>Submit</button>
 </form>
+
+<form>
+<fieldset>
+<legend> choose your favorite teammate>
+<input type="radio" id="gojo" name ="teammate>
+<label for="gojo">Gojo</label><br/>
+
+<input type="radio" id="nobara" name ="teammate>
+<label for="nobara">Nobara</label><br/>
+
+<input type="radio" id="panda" name ="teammate>
+<label for="panda">Panda</label><br/>
+
+<label for"sitefeature">Choose your favorite feature</label>
+<input list = "sitefeature" id = "sitefeature" name = "sitefeature"/>
+<datalist id="sitefeature">
+<option value="image">
+<option value="video">
+<option value="audio>
+</datalist>
+
+<label for="color">Choose a color:</label>
+<select name="color" id="color">
+    <option value="red">red</option>
+    <option value="yellow">yellow</option>
+    <option value="blue">blue</option>
+</select>
+
+<label for="feedback">leave some feedback:</label>
+
+<textarea id="feedback" name="feedback" rows="5" cols="40">
+leave some feedback
+</textarea>
+</form>
+
 
 </body>
 </html>
