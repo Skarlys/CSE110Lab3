@@ -11,7 +11,6 @@
 <footer>Author: Danica Xiong</footer>
 <section>
 <details>
-<main>
 <summary> Attendence List: </summary>
 
 <ul>
@@ -26,7 +25,7 @@
 </ul>
 </details>
 </section>
-</main>
+
 <section>
 <h2> Agenda: </h2>
 <ol>
@@ -38,6 +37,7 @@
 <li>Video and Audio recordings</li>
 </ol>
 
+<main>
 <div class="unfinished business">
 <h2> Unfinished Business: </h2>
 <ul>
@@ -46,6 +46,7 @@
 <li>What technology is available to team members?</li>
 </ul>
 </div>
+
 
 <hr>
 <h2> New business: </h2>
@@ -58,6 +59,7 @@
 <li>What movie should we watch after boba?</li>
 </ul>
 </hr>
+</main>
 
 <h2> Comments/Questions/Concerns: </h2>
 <ul>
@@ -84,18 +86,21 @@
 </audio>
 </p>
 
-<h2> Leave your name to join our team: </h2> 
+<h2> Leave your name for the survey: </h2> 
 
 <form>
 <label>Name:
 <input type="text" id="name" name="name" autocomplete="name">
+<label> Date:
+<input type="date" id="date" name="date" value = "2021-10-01" min = "2021-10-01" max = 2023-10-01"
 </label>
 <button>Submit</button>
 </form>
 
+
 <form>
 <fieldset>
-<legend> choose your favorite teammate
+<legend> choose your favorite teammate</legend>
 <input type="radio" id="gojo" name ="teammate>
 <label for="gojo">Gojo</label><br/>
 
@@ -104,32 +109,51 @@
 
 <input type="radio" id="panda" name ="teammate>
 <label for="panda">Panda</label><br/>
+
 </form>
 <br>
 
-<label for="sitefeature">Choose your favorite feature</label>
-<input list = "sitefeature" id = "sitefeature" name = "sitefeature"/>
-<datalist id="sitefeature">
-<option value="image">
-<option value="video">
-<option value="audio>
-</datalist>
+
+<form>
+<fieldset>
+<legend> which of these people have you heard of?</legend>
+<input type="checkbox" id="gojo" name ="teammate>
+
+<label for="gojo">Gojo</label><br/>
+<input type="checkbox" id="nobara" name ="teammate>
+<label for="nobara">Nobara</label><br/>
+<input type="checkbox" id="panda" name ="teammate>
+<label for="panda">Panda</label><br/>
+</form>
+<br>
+
+<form>
+<label for="eyes">who has blue eyes?</label>
+<input list="eyes" id="eyes" name="eyes"/>
+<datalist id="eyes">
+<option value = "megumi">
+<option value = "panda">
+<option value = "gojo">
+</form>
 
 <br>
+<form>
 <label for="color">Choose a color:</label>
 <select name="color" id="color">
     <option value="red">red</option>
     <option value="yellow">yellow</option>
     <option value="blue">blue</option>
 </select>
+</form>
 
 <br>
 <label for="feedback">leave some feedback:</label>
 
+<form>
 <textarea id="feedback" name="feedback" rows="5" cols="40">
 leave some feedback
 </textarea>
-
+</form>
 
 </body>
 </html>
