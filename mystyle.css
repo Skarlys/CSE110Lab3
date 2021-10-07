@@ -1,0 +1,112 @@
+/* hi, this is my css file*/
+
+/* text decorations*/
+.under {
+  display: block;
+  text-decoration: underline;
+  color: #6083b5;
+}
+.over {
+  text-decoration: wavy overline 4px;
+  color: #607cb5;
+  position: absolute;
+  text-align: center;
+}
+
+.underover {
+  text-decoration: dashed underline overline;
+  color: #6066b5;
+  text-align: right;
+  position: static;
+}
+/* attribute */
+/*
+a[href*="h"] {
+  background-color: #ffc412;
+}
+*/
+/* box */
+li {
+  border-style: solid;
+  border-color: #ff816b;
+  border-width: 5px;
+  border-radius: 10px; 
+  background-color: #ffbdab;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;  
+  display: inline-grid;
+}
+.box {
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #766f96;
+  background-color: #c7edff;
+  width: 300px;
+  height: 150px;
+  display: grid;
+}
+.one {
+  border: 5px solid #766f96;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.two {
+  border: 5px solid #766f96;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.three {
+  border: 5px solid #766f96;
+  grid-column: 1;
+  grid-row: 1/4;
+}
+ul {
+  display: flex;
+
+}
+/* font, universal */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  display: inline;
+  background-color: #ffc7e1;
+  color: #7d4f8c;
+}
+/* margin colors, relative units and absolute units*/
+h1 {
+  color: #957DAD;
+  margin-left: 20px;
+  font-size: 5vw;
+}
+h2 {
+  color: #957DAD;
+  margin-left: 1cm;
+  font-size: 2em;
+}
+h3 {
+  color: #957DAD;
+  margin-left: 10mm;
+  font-size: 300%;
+}
+
+button:hover {
+  display: inline;
+  color: #49649e;
+}
+
+button:active {
+  color: #ceabff;
+}
+
+/* id */
+#eyes {
+  color: #1d2199;
+}
