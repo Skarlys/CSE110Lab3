@@ -53,14 +53,17 @@ li {
   display: grid;
 }
 .one {
+  border: 5px solid #766f96;
   grid-column: 1/3;
   grid-row: 1;
 }
 .two {
+  border: 5px solid #766f96;
   grid-column: 2/3;
   grid-row: 2/3;
 }
 .three {
+  border: 5px solid #766f96;
   grid-column: 1;
   grid-row: 1/4;
 }
@@ -76,11 +79,6 @@ body {
   display: inline;
   background-color: #ffc7e1;
   color: #7d4f8c;
-}
-@media screen and (min-width: 600) {
-  body {
-    background-color: #c4fbff;
-  }
 }
 /* margin colors, relative units and absolute units*/
 h1 {
