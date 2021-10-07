@@ -22,7 +22,7 @@
 /* attribute */
 /*
 a[href*="h"] {
-  background-color: #ffc412;
+  font-style: italic;
 }
 */
 /* box */
@@ -71,6 +71,10 @@ ul {
   display: flex;
 
 }
+ol {
+  border: 5px solid #766f96;
+  background-color: #e6d6ff;
+}
 /* font, universal */
 * {
   font-family: 'Roboto', sans-serif;
@@ -102,11 +106,32 @@ button:hover {
   color: #49649e;
 }
 
+/* pseudo class selector */
 button:active {
   color: #ceabff;
+  background-color: #ffffff;
 }
 
 /* id */
 #eyes {
+  font-style: bold;
   color: #1d2199;
+
+}
+/* combinators */
+div p {
+  font-family: 'Akronim', cursive;  
+}
+div > p {
+  color: #503d99;
+}
+div + p {
+  font-style: bold;
+}
+div ~ p {
+  font-family: 'Akronim', cursive;  
+  background-color: #fff2b0;
+}
+div . p{
+  color: #f74871;
 }
