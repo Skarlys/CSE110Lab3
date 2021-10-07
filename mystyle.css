@@ -109,13 +109,14 @@ button:active {
 }
 
 /* id */
-#gojo {
+#eyes {
   font-style: bold;
   color: #1d2199;
+
 }
 /* combinators */
 div p {
-  background-color: #fff2b0; 
+  font-family: 'Akronim', cursive;  
 }
 div > p {
   color: #503d99;
@@ -125,6 +126,7 @@ div + p {
 }
 div ~ p {
   font-family: 'Akronim', cursive;  
+  background-color: #fff2b0;
 }
 div . p{
   color: #f74871;
