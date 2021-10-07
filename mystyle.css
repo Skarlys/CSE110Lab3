@@ -3,24 +3,24 @@
 /* text decorations*/
 .under {
   text-decoration: underline #E0BBE4;
- /* color: #6083b5;*/
+  color: #6083b5;
   text-align: left;
 }
 .over {
   text-decoration: wavy overline #E0BBE4 4px;
-  /*color: #607cb5; */
+  color: #607cb5;
   text-align: center;
 }
 
 .underover {
   text-decoration: dashed underline overline #E0BBE4;
-  /*color: #6066b5;*/
+  color: #6066b5;
   text-align: right;
 }
 
 body {
-  background-color: #7d4f8c;
-  color: #D291BC;
+  background-color: #D291BC;
+  color: #7d4f8c;
 }
 
 /* margin colors, relative units and absolute units*/
@@ -40,7 +40,8 @@ h3 {
   font-size: 300%;
 }
 /* box model*/
-p, ul {
+p,
+ul {
   border: 2px #FFDFD3;
 }
 
