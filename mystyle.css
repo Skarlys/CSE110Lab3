@@ -15,7 +15,7 @@
 .underover {
   text-decoration: dashed underline overline;
   color: #6066b5;
-  position: sticky;
+  position: static;
 }
 /* box */
 li {
