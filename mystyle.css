@@ -41,6 +41,7 @@ box {
 }
 
 body {
+  display: inline;
   background-color: #ffc7e1;
   color: #7d4f8c;
 }
@@ -52,6 +53,7 @@ h1 {
   font-size: 5vw;
 }
 h2 {
+  display: inline-block;
   color: #957DAD;
   margin-left: 1cm;
   font-size: 2em;
