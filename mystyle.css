@@ -35,9 +35,9 @@ li {
   
 }
 box {
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  border: solid #766f96 5px 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #766f96;
 }
 
 body {
