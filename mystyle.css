@@ -2,21 +2,19 @@
 
 /* text decorations*/
 .under {
+  display: inline;
   text-decoration: underline;
   color: #6083b5;
-  /*text-align: left;*/
 }
 .over {
   text-decoration: wavy overline 4px;
   color: #607cb5;
-  /*text-align: center;*/
   position: absolute;
 }
 
 .underover {
   text-decoration: dashed underline overline;
   color: #6066b5;
-/*  text-align: right;*/
   position: sticky;
 }
 /* box */
@@ -36,7 +34,7 @@ li {
   margin-right: 10px;
   text-align: left;  
 }
-
+@media screen and (min-width: 480) {
 .box {
   margin: 10px;
   padding: 10px;
@@ -46,13 +44,13 @@ li {
   height: 150px;
   text-align: center;
 }
+}
 ul {
   display: inline-block;
 }
 
 /* font */
 body {
-/*display*/
   display: inline;
   background-color: #ffc7e1;
   color: #7d4f8c;
@@ -76,11 +74,11 @@ h3 {
   font-size: 300%;
 }
 
-button:hover{
+button:hover {
   color: #49649e;
 }
 
-button:active{
+button:active {
   color: #ceabff;
 }
 
