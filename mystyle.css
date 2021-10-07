@@ -22,21 +22,21 @@ li {
   border-style: solid;
   border-color: #8a4141;
   border-width: 5px;
-  border-radius: 20px; 
+  border-radius: 10px; 
   background-color: #ffbdab;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   
 }
 ul {
-  margin: 30px 30px 30px 30px;
-  padding: 30px 30px 30px 30px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border: solid #766f96 5px 20px;
 }
 
@@ -60,11 +60,6 @@ h3 {
   color: #957DAD;
   margin-left: 10mm;
   font-size: 300%;
-}
-/* box model*/
-p,
-ul {
-  border: 2px #FFDFD3;
 }
 
 
