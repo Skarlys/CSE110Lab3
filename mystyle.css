@@ -18,7 +18,7 @@
   text-align: right;
 }
 /* box */
-.box {
+li {
   border-style: solid;
   border-color: #8a4141;
   border-width: 5px;
@@ -33,6 +33,11 @@
   margin-left: 40px;
   margin-right: 40px;
   
+}
+ul {
+  margin: 30px 30px 30px 30px;
+  padding: 30px 30px 30px 30px;
+  border: solid #766f96 5px 20px;
 }
 
 body {
