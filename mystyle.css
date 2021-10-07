@@ -21,8 +21,8 @@
 }
 /* attribute */
 /*
-[attr="https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV] {
-  color: #ffc412;
+a[href*="h"] {
+  background-color: #ffc412;
 }
 */
 /* box */
