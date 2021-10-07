@@ -5,16 +5,19 @@ body {
   background-color: #FFDFD3;
 }
 
-/* margin colors and absolute units*/
+/* margin colors, relative units and absolute units*/
 h1 {
   color: #957DAD;
   margin-left: 20px;
+  front-size: 1vw;
 }
 h2 {
   color: #957DAD;
   margin-left: 1cm;
+  font-size: 1%;
 }
 h3 {
   color: #957DAD;
   margin-left: 10mm;
+  font-size: 2em;
 }
