@@ -71,6 +71,10 @@ ul {
   display: flex;
 
 }
+ol {
+  border: 5px solid #766f96;
+  background-color: #e6d6ff;
+}
 /* font, universal */
 * {
   font-family: 'Roboto', sans-serif;
