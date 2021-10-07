@@ -2,7 +2,7 @@
 
 /* text decorations*/
 .under {
-  display: none;
+  display: block;
   text-decoration: underline;
   color: #6083b5;
 }
@@ -45,11 +45,6 @@ li {
   text-align: center;
 }
 
-@media screen and (min-width: 480) {
-  body {
-    background-color: #c4fbff;
-  }
-}
 ul {
   display: flex;
 
@@ -62,6 +57,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (min-width: 600) {
+  body {
+    background-color: #c4fbff;
+  }
+}
 /* margin colors, relative units and absolute units*/
 h1 {
   color: #957DAD;
