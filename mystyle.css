@@ -1,15 +1,27 @@
 /* hi, this is my css file*/
 
+/* text decorations*/
+.under {
+  text-decoration: underline #E0BBE4;
+}
+.over {
+  text-decoration: wavy overline #E0BBE4 4px;
+}
+
+.underover {
+  text-decoration: dashed underline overline #E0BBE4;
+}
 
 body {
   background-color: #FFDFD3;
+  color: #D291BC;
 }
 
 /* margin colors, relative units and absolute units*/
 h1 {
   color: #957DAD;
   margin-left: 20px;
-  front-size: 5vw;
+  font-size: 5vw;
 }
 h2 {
   color: #957DAD;
@@ -19,5 +31,10 @@ h2 {
 h3 {
   color: #957DAD;
   margin-left: 10mm;
-  font-size: 100%;
+  font-size: 300%;
 }
+/* box model*/
+
+/*text*/
+
+
