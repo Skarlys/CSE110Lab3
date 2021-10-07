@@ -2,18 +2,18 @@
 
 /* text decorations*/
 .under {
-  text-decoration: underline #E0BBE4;
+  text-decoration: underline;
   color: #6083b5;
   text-align: left;
 }
 .over {
-  text-decoration: wavy overline #E0BBE4 4px;
+  text-decoration: wavy overline 4px;
   color: #607cb5;
   text-align: center;
 }
 
 .underover {
-  text-decoration: dashed underline overline #E0BBE4;
+  text-decoration: dashed underline overline;
   color: #6066b5;
   text-align: right;
 }
@@ -36,7 +36,7 @@
 }
 
 body {
-  background-color: #D291BC;
+  background-color: #ffc7e1;
   color: #7d4f8c;
 }
 
