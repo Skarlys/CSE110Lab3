@@ -17,6 +17,23 @@
   color: #6066b5;
   text-align: right;
 }
+/* box */
+.box {
+  border-style: solid;
+  border-color: #8a4141;
+  border-width: 5px;
+  border-radius: 20px; 
+  background-color: #ffbdab;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
 
 body {
   background-color: #D291BC;
