@@ -2,7 +2,7 @@
 
 /* text decorations*/
 .under {
-  display: inline;
+  display: none;
   text-decoration: underline;
   color: #6083b5;
 }
@@ -46,10 +46,13 @@ li {
 }
 
 @media screen and (min-width: 480) {
+  body {
+    background-color: #c4fbff;
+  }
+}
 ul {
   display: flex;
 
-}
 }
 /* font */
 body {
